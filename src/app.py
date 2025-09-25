@@ -34,7 +34,7 @@ class TaskManagerApp:
             ]
         )
 
-        self.foundry_agent = None
+        self.foundry_agent: FoundryTaskAgent = None
         self.exit_stack = None
 
         # Initialize services
